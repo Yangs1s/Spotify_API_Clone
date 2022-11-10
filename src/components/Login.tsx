@@ -7,7 +7,7 @@ const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const Login = () => {
   const handleClickEvent = () => {
 
-    // const clientID = "6447116ae3974778b3cc0dde85814dbc"
+
     const clientID = process.env.REACT_APP_CLIENT_ID;
     const redirectURI = "http://localhost:3000/";
     const apiURL = "https://accounts.spotify.com/authorize";
